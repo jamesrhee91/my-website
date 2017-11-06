@@ -1,16 +1,58 @@
-.NavBar-Container {
+.navBarContainer {
   background-color: white;
   width: 100%;
-  height: 90px;
+  height: 85px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
-.NavBar {
+.navBar {
+  display: flex;
   width: 90%;
-  height: 89px;
+  height: 100%;
   border-bottom: 1px;
   border-bottom-color: #727272;
   border-bottom-style: solid;
+}
+
+.leftContainer {
+  width: 9%;
+  height: 100%;
+}
+
+.midContainer {
+  margin: auto;
+  width: 20%;
+  height: 100%;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.rightContainer {
+  display: flex;
+  width: 18%;
+  height: 100%;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  color: #727272;
+  transition: all .2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.box:hover {
+  color: black;
+  transform: scale(1.3);
 }

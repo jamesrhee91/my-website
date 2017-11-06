@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBarContainer from './components/NavBarContainer'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className="NavBar-Container">
-          <div className="NavBar">
-
-          </div>
-        </div>
+        <NavBarContainer />
       </div>
     );
   }
