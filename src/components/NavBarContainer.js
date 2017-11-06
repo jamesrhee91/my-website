@@ -9,29 +9,31 @@ export default class NavBarContainer extends React.Component {
         <div className="navBar">
 
           <div className="leftContainer">
-            <div className="box">
+            <a href="" target="_blank" className="box">
               <Icon name="home" size="big" />
-            </div>
-          </div>
-
-          <div className="midContainer">
-            <div className="name">
-              James Rhee
-            </div>
+            </a>
           </div>
 
           <div className="rightContainer">
-            <div className="box">
+            <a href="https://www.linkedin.com/in/jamesrhee91" target="_blank" className="box">
               <Icon name="linkedin" size="big"/>
-            </div>
-            <div className="box">
+            </a>
+
+            <a href="https://www.github.com/jamesrhee91" target="_blank" className="box">
               <Icon name="github" size="big"/>
-            </div>
-            <div className="box">
+            </a>
+
+            <a href="https://www.medium.com/@jamesshrhee" target="_blank" className="box">
               <Icon name="medium" size="big"/>
-            </div>
+            </a>
           </div>
 
+        </div>
+
+        <div className="nameContainer">
+          <div className="name">
+            J A M E S  R H E E
+          </div>
         </div>
       </div>
     )
