@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBarContainer from './components/NavBarContainer'
+import AboutContainer from './components/AboutContainer'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app">
         <NavBarContainer />
+        <AboutContainer />
       </div>
     );
   }
