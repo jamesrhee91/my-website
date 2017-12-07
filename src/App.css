@@ -19,7 +19,18 @@
   width: 85%;
 }
 
-.title {
+.caption {
+  position: absolute;
+  top: 20%;
+  color: #fff;
+  opacity: 0;
+  z-index: 5;
+  font-weight: bold;
+}
+
+.caption-wrapper {
+  top: 50%;
+  left: 50%;
   position: absolute;
 }
 
@@ -81,7 +92,7 @@
   transition: all .3s ease-in-out;
 }
 
-.card:hover #button {
+.card:hover #button, .card:hover .caption {
   transition: all .3s ease-in-out;
   opacity: 1;
 }
@@ -94,6 +105,8 @@
   border: 1px;
   border-style: solid;
   border-color: #d1d1d1;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .card {
@@ -104,7 +117,7 @@
 }
 
 #test {
-  height: auto;
+  max-height: 410px;
   max-width: 100%;
 }
 
@@ -120,12 +133,12 @@
 .container {
   margin-top: 60px;
   display: flex;
-  height: 410px;
+  max-height: 410px;
   width: 100%;
 }
 
 #portCont {
-  height: 500px;
+  /*height: 500px;*/
   display: block;
   margin-bottom: 200px;
 }
