@@ -1,6 +1,7 @@
 import React from 'react'
-import parx from '../images/parx-login.gif'
-import pianoTiles from '../images/piano-tiles.gif'
+import Parx from '../images/parx-login.gif'
+import PianoTiles from '../images/piano-tiles.gif'
+import WeOrder from '../images/weorder.gif'
 import { Button, Reveal, Image } from 'semantic-ui-react'
 
 const Portfolio = () => {
@@ -10,33 +11,32 @@ const Portfolio = () => {
       <div className="cardsCont">
 
           <div className="card-wrapper">
-            <div className="card">
-              <img src={parx} alt="PARX" id="test" />
+            <div className="card" style={{ backgroundImage: `url(${WeOrder})` }}>
               <div id="overlay"></div>
+              <h1 className="caption">WeOrder</h1>
               <div id="button">
-                <a href="#" id="link">VIEW PROJECT</a>
+                <a href="https://github.com/jamesrhee91/WeOrder-frontend" target="_blank" rel="noopener noreferrer" id="link">VIEW GITHUB</a>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper">
-            <div className="card">
-              <img src={parx} alt="PARX" id="test" />
+            <div className="card" style={{ backgroundImage: `url(${Parx})` }}>
               <div id="overlay"></div>
+              <h1 className="caption">P A R X</h1>
               <div id="button">
-                <a href="#" id="link">VIEW PROJECT</a>
+                <a href="https://github.com/jamesrhee91/PARX-FRONTEND" target="_blank" rel="noopener noreferrer" id="link">VIEW GITHUB</a>
               </div>
             </div>
           </div>
 
           <div className="card-wrapper">
-            <div className="card">
-              <img src={pianoTiles} alt="Piano Tiles" id="test" />
+            <div className="card" style={{ backgroundImage: `url(${PianoTiles})` }}>
               <div id="overlay"></div>
-                <div id="button">
-                  <h4 className="caption">PIANO TILES</h4>
-                  <a href="#" id="link">VIEW PROJECT</a>
-                </div>
+              <h1 className="caption">PIANO TILES</h1>
+              <div id="button">
+                <a href="https://github.com/jamesrhee91/piano-tiles-frontend" target="_blank" rel="noopener noreferrer" id="link">VIEW GITHUB</a>
+              </div>
             </div>
           </div>
       </div>

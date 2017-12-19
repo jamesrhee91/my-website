@@ -7,8 +7,8 @@ const NavBar = () => {
     <div className="center">
       <div className="navBar">
         <div className="leftContainer">
-          <a href="" target="_blank" className="box center">
-            <Icon name="home" size="big" />
+          <a href="https://docs.google.com/document/d/1i8blFR4vAzRp0DzQferxq6S8hDt4yQKakYRe4FzuA9w/edit?usp=sharing" target="_blank" className="box center">
+            <Icon name="address card" size="big" />
           </a>
         </div>
         <div className="rightContainer">
